@@ -1,0 +1,12 @@
+[package]
+name = "gcp-auth-example"
+version = "0.1.0"
+authors = ["Michael Daffin <michael.daffin@switchconcepts.com>"]
+
+[dependencies]
+hyper = "^0.10"
+hyper-rustls = "^0.6"
+yup-oauth2 = "^1.0"
+serde_json = "1.0.9"
+serde = "1.0.27"
+serde_derive = "1.0.27"
